@@ -2,39 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class gravityflip : MonoBehaviour
+public class objectgravityflip : MonoBehaviour
 {
-    public CharacterController2D controller;
     public bool flipstate = false;
     private bool top;
+
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q) && GetComponent<CharacterController2D>().m_Grounded)
+        if (Input.GetKeyDown(KeyCode.Q) && GameObject.Find("Player").GetComponent<CharacterController2D>().m_Grounded)
         {
-            if(flipstate == false)
+            if (flipstate == false)
             {
                 flipstate = true;
-                GetComponent<CharacterController2D>().m_JumpForce = -700f;
                 rotation();
             }
             else
             {
                 flipstate = false;
-                GetComponent<CharacterController2D>().m_JumpForce = 700f;
                 rotation();
             }
         }
-
     }
 
     void FixedUpdate()
     {
-        if(flipstate == false)
+        if (flipstate == false)
         {
             GetComponent<Rigidbody2D>().gravityScale = 3;
         }
-        if(flipstate == true)
+        if (flipstate == true)
         {
             GetComponent<Rigidbody2D>().gravityScale = -3;
         }

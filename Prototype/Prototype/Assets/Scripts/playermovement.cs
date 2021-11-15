@@ -10,7 +10,6 @@ public class playermovement : MonoBehaviour
     float MoveHorizontal = 0f;
     public float Movespeed = 30f;
     bool jump = false;
-
     // Update is called once per frame
     void Update()
     {
@@ -27,5 +26,5 @@ public class playermovement : MonoBehaviour
         controller.Move(MoveHorizontal * Time.fixedDeltaTime, false, jump);
         jump = false;
     }
-    // testing push github
+    
 }
