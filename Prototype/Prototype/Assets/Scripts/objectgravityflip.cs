@@ -40,7 +40,7 @@ public class objectgravityflip : MonoBehaviour
     {
         if (top == false)
         {
-            transform.eulerAngles = new Vector3(0, 0, 180f);
+            transform.eulerAngles = new Vector3(0, 180f, 180f);
         }
         else
         {

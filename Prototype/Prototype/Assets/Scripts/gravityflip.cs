@@ -6,7 +6,7 @@ public class gravityflip : MonoBehaviour
 {
     public CharacterController2D controller;
     public bool flipstate = false;
-    private bool top;
+    private bool top = false;
     // Update is called once per frame
     void Update()
     {
@@ -43,11 +43,11 @@ public class gravityflip : MonoBehaviour
     {
         if (top == false)
         {
-            transform.eulerAngles = new Vector3(0, 0, 180f);
+            transform.localRotation = Quaternion.Euler(0, 180, 180);
         }
         else
         {
-            transform.eulerAngles = Vector3.zero;
+            transform.localRotation = Quaternion.Euler(0, 0, 0);
         }
         top = !top;
     }
