@@ -11,12 +11,12 @@ public class cameramove : MonoBehaviour
         camera = GameObject.Find("Main Camera");
         if (activated == false)
         {
-            camera.transform.Translate(17, 0, 0);
+            camera.transform.Translate(25, 0, 0);
             activated = true;
         }
         else
         {
-            camera.transform.Translate(-17, 0, 0);
+            camera.transform.Translate(-25, 0, 0);
             activated = false;
         }
     }

@@ -15,12 +15,12 @@ public class objectgravityflip : MonoBehaviour
             if (flipstate == false)
             {
                 flipstate = true;
-                rotation();
+               // rotation();
             }
             else
             {
                 flipstate = false;
-                rotation();
+               // rotation();
             }
         }
     }

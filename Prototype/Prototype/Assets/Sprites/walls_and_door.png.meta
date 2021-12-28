@@ -20,6 +20,78 @@ TextureImporter:
   - first:
       213: -2240820518846266354
     second: walls_and_door_29
+  - first:
+      213: -8919069860012556759
+    second: walls_and_door_0
+  - first:
+      213: 3123232633855792224
+    second: walls_and_door_1
+  - first:
+      213: 8121562247153138155
+    second: walls_and_door_2
+  - first:
+      213: 5810896553369024734
+    second: walls_and_door_3
+  - first:
+      213: -4280236665652147004
+    second: walls_and_door_4
+  - first:
+      213: 8366862945091848585
+    second: walls_and_door_5
+  - first:
+      213: 5362924798995842049
+    second: walls_and_door_6
+  - first:
+      213: 3143701753505513449
+    second: walls_and_door_7
+  - first:
+      213: 5056562899331794402
+    second: walls_and_door_8
+  - first:
+      213: -3164276245096676942
+    second: walls_and_door_9
+  - first:
+      213: -6310702639013574554
+    second: walls_and_door_10
+  - first:
+      213: 444490318044015926
+    second: walls_and_door_11
+  - first:
+      213: -4589384692993941807
+    second: walls_and_door_12
+  - first:
+      213: 8188387986128118726
+    second: walls_and_door_13
+  - first:
+      213: -2924355815534672382
+    second: walls_and_door_14
+  - first:
+      213: 6704990348267589809
+    second: walls_and_door_15
+  - first:
+      213: -5400146693640067800
+    second: walls_and_door_16
+  - first:
+      213: 6592221523339519402
+    second: walls_and_door_17
+  - first:
+      213: -874644767915551157
+    second: walls_and_door_18
+  - first:
+      213: 7051590660278988355
+    second: walls_and_door_20
+  - first:
+      213: -651546112676779261
+    second: walls_and_door_21
+  - first:
+      213: -2203753444728004878
+    second: walls_and_door_22
+  - first:
+      213: 6603675627895250181
+    second: walls_and_door_23
+  - first:
+      213: -6577934995762055851
+    second: walls_and_door_24
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -50,7 +122,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -64,7 +136,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 31.9
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -86,7 +158,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,7 +170,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,7 +182,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,7 +194,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -220,9 +292,9 @@ TextureImporter:
       name: walls_and_door_4
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 165
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -241,9 +313,9 @@ TextureImporter:
       name: walls_and_door_5
       rect:
         serializedVersion: 2
-        x: 39
+        x: 33
         y: 165
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -262,9 +334,9 @@ TextureImporter:
       name: walls_and_door_6
       rect:
         serializedVersion: 2
-        x: 72
+        x: 66
         y: 165
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -283,9 +355,9 @@ TextureImporter:
       name: walls_and_door_7
       rect:
         serializedVersion: 2
-        x: 105
+        x: 99
         y: 165
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -304,9 +376,9 @@ TextureImporter:
       name: walls_and_door_8
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 132
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -325,9 +397,9 @@ TextureImporter:
       name: walls_and_door_9
       rect:
         serializedVersion: 2
-        x: 39
+        x: 33
         y: 132
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -346,9 +418,9 @@ TextureImporter:
       name: walls_and_door_10
       rect:
         serializedVersion: 2
-        x: 72
+        x: 66
         y: 132
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -367,9 +439,9 @@ TextureImporter:
       name: walls_and_door_11
       rect:
         serializedVersion: 2
-        x: 105
+        x: 99
         y: 132
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -388,9 +460,9 @@ TextureImporter:
       name: walls_and_door_12
       rect:
         serializedVersion: 2
-        x: 10
+        x: 0
         y: 99
-        width: 12
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -409,9 +481,9 @@ TextureImporter:
       name: walls_and_door_13
       rect:
         serializedVersion: 2
-        x: 43
+        x: 33
         y: 99
-        width: 12
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -430,9 +502,9 @@ TextureImporter:
       name: walls_and_door_14
       rect:
         serializedVersion: 2
-        x: 76
+        x: 66
         y: 99
-        width: 12
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -451,9 +523,9 @@ TextureImporter:
       name: walls_and_door_15
       rect:
         serializedVersion: 2
-        x: 109
+        x: 99
         y: 99
-        width: 12
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -472,10 +544,10 @@ TextureImporter:
       name: walls_and_door_16
       rect:
         serializedVersion: 2
-        x: 6
+        x: 0
         y: 66
-        width: 20
-        height: 3
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,9 +565,9 @@ TextureImporter:
       name: walls_and_door_17
       rect:
         serializedVersion: 2
-        x: 72
+        x: 33
         y: 66
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -514,9 +586,9 @@ TextureImporter:
       name: walls_and_door_18
       rect:
         serializedVersion: 2
-        x: 105
+        x: 66
         y: 66
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -535,9 +607,9 @@ TextureImporter:
       name: walls_and_door_20
       rect:
         serializedVersion: 2
-        x: 72
+        x: 0
         y: 33
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -556,9 +628,9 @@ TextureImporter:
       name: walls_and_door_21
       rect:
         serializedVersion: 2
-        x: 105
+        x: 33
         y: 33
-        width: 20
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -577,9 +649,9 @@ TextureImporter:
       name: walls_and_door_22
       rect:
         serializedVersion: 2
-        x: 47
-        y: 0
-        width: 4
+        x: 66
+        y: 33
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -598,9 +670,9 @@ TextureImporter:
       name: walls_and_door_23
       rect:
         serializedVersion: 2
-        x: 78
-        y: 0
-        width: 8
+        x: 99
+        y: 33
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -619,7 +691,7 @@ TextureImporter:
       name: walls_and_door_24
       rect:
         serializedVersion: 2
-        x: 99
+        x: 0
         y: 0
         width: 32
         height: 32
@@ -640,9 +712,9 @@ TextureImporter:
       name: walls_and_door_19
       rect:
         serializedVersion: 2
-        x: 77
-        y: 0
-        width: 10
+        x: 99
+        y: 66
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -661,9 +733,9 @@ TextureImporter:
       name: walls_and_door_25
       rect:
         serializedVersion: 2
-        x: 45
+        x: 33
         y: 0
-        width: 8
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -682,9 +754,9 @@ TextureImporter:
       name: walls_and_door_26
       rect:
         serializedVersion: 2
-        x: 39
-        y: 33
-        width: 20
+        x: 66
+        y: 0
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -703,9 +775,9 @@ TextureImporter:
       name: walls_and_door_27
       rect:
         serializedVersion: 2
-        x: 39
-        y: 66
-        width: 20
+        x: 99
+        y: 0
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -716,48 +788,6 @@ TextureImporter:
       bones: []
       spriteID: dcf5f717dec9e2dc0800000000000000
       internalID: -3661816903380279347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walls_and_door_28
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 62
-        width: 20
-        height: 3
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce0fb67ed13825ec0800000000000000
-      internalID: -3579654589346221844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walls_and_door_29
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 0
-        width: 4
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0403c84c9107e0e0800000000000000
-      internalID: -2240820518846266354
       vertices: []
       indices: 
       edges: []
