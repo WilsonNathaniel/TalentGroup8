@@ -57,16 +57,7 @@ public class CharacterController2D : MonoBehaviour
 				m_Grounded = true;
 				if (!wasGrounded)
 					OnLandEvent.Invoke();
-				foreach(var c in colliders)
-                {
-					if (c.tag == "movingplatform")
-						transform.parent = c.transform;
-                }
 			}
-            else
-            {
-				transform.parent = null;
-            }
 		}
 	}
 
