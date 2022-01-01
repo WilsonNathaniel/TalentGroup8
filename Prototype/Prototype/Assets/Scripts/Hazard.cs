@@ -12,7 +12,7 @@ public class Hazard : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("you ded");
+            
             RestartScene();
         }
 
