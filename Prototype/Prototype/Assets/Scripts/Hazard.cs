@@ -15,6 +15,11 @@ public class Hazard : MonoBehaviour
             Debug.Log("you ded");
             RestartScene();
         }
+
+        if (collision.gameObject.tag == "crate")
+        {
+            collision.gameObject.SetActive(false);
+        }
     }
 
 

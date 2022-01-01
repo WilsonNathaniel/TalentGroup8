@@ -6,11 +6,18 @@ public class objectgravityflip : MonoBehaviour
 {
     public bool flipstate = false;
     private bool top;
+    private CharacterController2D controller;
+    private Rigidbody2D rb;
 
-    // Update is called once per frame
+
+    void Start()
+    {
+        controller = GameObject.Find("Player").GetComponent<CharacterController2D>();
+        rb = GetComponent<Rigidbody2D>();
+    }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q) && GameObject.Find("Player").GetComponent<CharacterController2D>().m_Grounded)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && controller.m_Grounded)
         {
             if (flipstate == false)
             {
@@ -29,11 +36,11 @@ public class objectgravityflip : MonoBehaviour
     {
         if (flipstate == false)
         {
-            GetComponent<Rigidbody2D>().gravityScale = 3;
+            rb.gravityScale = 3;
         }
         if (flipstate == true)
         {
-            GetComponent<Rigidbody2D>().gravityScale = -3;
+            rb.gravityScale = -3;
         }
     }
     void rotation()

@@ -7,21 +7,27 @@ public class gravityflip : MonoBehaviour
     public CharacterController2D controller;
     public bool flipstate = false;
     private bool top = false;
-    // Update is called once per frame
+    private Rigidbody2D rb;
+
+    void Start()
+    {
+        controller = GetComponent<CharacterController2D>();
+        rb = GetComponent<Rigidbody2D>();
+    }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q) && GetComponent<CharacterController2D>().m_Grounded)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && controller.m_Grounded)
         {
             if(flipstate == false)
             {
                 flipstate = true;
-                GetComponent<CharacterController2D>().m_JumpForce = -700f;
+                controller.m_JumpForce = -700f;
                 rotation();
             }
             else
             {
                 flipstate = false;
-                GetComponent<CharacterController2D>().m_JumpForce = 700f;
+                controller.m_JumpForce = 700f;
                 rotation();
             }
         }
@@ -32,11 +38,11 @@ public class gravityflip : MonoBehaviour
     {
         if(flipstate == false)
         {
-            GetComponent<Rigidbody2D>().gravityScale = 3;
+            rb.gravityScale = 3f;
         }
         if(flipstate == true)
         {
-            GetComponent<Rigidbody2D>().gravityScale = -3;
+            rb.gravityScale = -3f;
         }
     }
     void rotation()
