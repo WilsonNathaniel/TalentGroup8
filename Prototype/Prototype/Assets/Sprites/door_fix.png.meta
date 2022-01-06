@@ -1,25 +1,10 @@
 fileFormatVersion: 2
-guid: 47f6eeb435ed8b54a82e1ece7a20df66
+guid: 38d943eb08df2c140b17f5f5088aa1df
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5756380681857427472
-    second: background1_0
-  - first:
-      213: 6151996013035556394
-    second: background1_1
-  - first:
-      213: 3343638076008302627
-    second: background1_2
-  - first:
-      213: 1718271839979687114
-    second: background1_3
-  - first:
-      213: -693333088908798371
-    second: background1_4
-  - first:
-      213: 6086247628662843074
-    second: background1_5
+      213: -5814049449106487505
+    second: door_fix_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -64,7 +49,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 5
+  spritePixelsToUnits: 31.9
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -86,7 +71,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,7 +83,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,7 +95,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,7 +107,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -133,13 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: background1_0
+      name: door_fix_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 154
-        width: 128
-        height: 72
+        x: 6
+        y: 67
+        width: 20
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01868064bb5c2ef40800000000000000
-      internalID: 5756380681857427472
+      spriteID: 5504991e239381980800000000000000
+      internalID: -8568035400376303531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: background1_1
+      name: door_fix_1
       rect:
         serializedVersion: 2
-        x: 133
-        y: 154
-        width: 128
-        height: 72
+        x: 6
+        y: 134
+        width: 19
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2e8a9877c7406550800000000000000
-      internalID: 6151996013035556394
+      spriteID: af9fb80ac987e6b60800000000000000
+      internalID: 7741257423600220666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: background1_2
+      name: door_fix_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 77
-        width: 128
-        height: 72
+        x: 39
+        y: 133
+        width: 20
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32802f16d1df66e20800000000000000
-      internalID: 3343638076008302627
+      spriteID: aa673b9daf80a3b70800000000000000
+      internalID: 8879419488801617578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: background1_3
+      name: door_fix_3
       rect:
         serializedVersion: 2
-        x: 133
-        y: 77
-        width: 128
-        height: 72
+        x: 72
+        y: 67
+        width: 20
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acccb89722788d710800000000000000
-      internalID: 1718271839979687114
+      spriteID: bb9cade386dafaed0800000000000000
+      internalID: -2400509413122455109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: background1_4
+      name: door_fix_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 72
+        x: 72
+        y: 133
+        width: 20
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d561194aa39c066f0800000000000000
-      internalID: -693333088908798371
+      spriteID: f46ae0f1fa49af350800000000000000
+      internalID: 6051312529186924111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: background1_5
+      name: door_fix_5
       rect:
         serializedVersion: 2
-        x: 133
-        y: 0
-        width: 128
-        height: 72
+        x: 105
+        y: 67
+        width: 20
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,8 +237,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c62381d8f1b67450800000000000000
-      internalID: 6086247628662843074
+      spriteID: c33ec1f2c904b3940800000000000000
+      internalID: 5276882427944166204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_fix_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 133
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328188e7f1c3e6820800000000000000
+      internalID: 2913332114919790627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_fix_7
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 67
+        width: 20
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27c37784d8505fa0800000000000000
+      internalID: -5814049449106487505
       vertices: []
       indices: 
       edges: []
