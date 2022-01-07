@@ -18,7 +18,12 @@ public class OpenDoor : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if(triggerSwitch.isSwitched == true)
+        //DoorOpener();
+    }
+
+    public void DoorOpener()
+    {
+        if (triggerSwitch.isSwitched == true)
         {
             objectToDisable.SetActive(false);
         }

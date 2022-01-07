@@ -144,7 +144,7 @@ TextureImporter:
         serializedVersion: 2
         x: 6
         y: 134
-        width: 19
+        width: 20
         height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -205,7 +205,7 @@ TextureImporter:
       name: door_fix_3
       rect:
         serializedVersion: 2
-        x: 73
+        x: 72
         y: 133
         width: 20
         height: 64
