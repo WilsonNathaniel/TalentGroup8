@@ -134,10 +134,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwitchR5
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: objectToDisable
-      value: 
-      objectReference: {fileID: 702284722}
     - target: {fileID: 7311623346189068307, guid: 237211016406e4e4e9ffb602fa9a9970, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1903,11 +1899,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4719895644497501860, guid: 9f6b7b6fa4e2df34ea5aeed75cd4ef64, type: 3}
   m_PrefabInstance: {fileID: 445872075}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &445872077 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5698541942608270132, guid: 9f6b7b6fa4e2df34ea5aeed75cd4ef64, type: 3}
-  m_PrefabInstance: {fileID: 445872075}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &482654470
 GameObject:
   m_ObjectHideFlags: 0
@@ -2016,10 +2007,6 @@ PrefabInstance:
       propertyPath: m_FlipY
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: objectToDisable
-      value: 
-      objectReference: {fileID: 843498550}
     - target: {fileID: 7311623346189068307, guid: 237211016406e4e4e9ffb602fa9a9970, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2123,10 +2110,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwitchR3
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: objectToDisable
-      value: 
-      objectReference: {fileID: 445872077}
     - target: {fileID: 7311623346189068307, guid: 237211016406e4e4e9ffb602fa9a9970, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2270,11 +2253,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4719895644497501860, guid: 9f6b7b6fa4e2df34ea5aeed75cd4ef64, type: 3}
   m_PrefabInstance: {fileID: 686307075}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &686307077 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5698541942608270132, guid: 9f6b7b6fa4e2df34ea5aeed75cd4ef64, type: 3}
-  m_PrefabInstance: {fileID: 686307075}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &702284720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2361,11 +2339,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4719895644497501860, guid: 9f6b7b6fa4e2df34ea5aeed75cd4ef64, type: 3}
   m_PrefabInstance: {fileID: 702284720}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &702284722 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5698541942608270132, guid: 9f6b7b6fa4e2df34ea5aeed75cd4ef64, type: 3}
-  m_PrefabInstance: {fileID: 702284720}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &728710011
 GameObject:
   m_ObjectHideFlags: 0
@@ -2434,7 +2407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540419034449887260, guid: a5af5eac837b71741b67cbe176fb3db8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.0868917
+      value: -5.114
       objectReference: {fileID: 0}
     - target: {fileID: 2540419034449887260, guid: a5af5eac837b71741b67cbe176fb3db8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2470,6 +2443,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5af5eac837b71741b67cbe176fb3db8, type: 3}
+--- !u!1 &828302074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2540419034449887257, guid: a5af5eac837b71741b67cbe176fb3db8, type: 3}
+  m_PrefabInstance: {fileID: 828302073}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &828302075
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828302074}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b9ccef0241ded3049a579f2ed5cfbb22, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &828302076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828302074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04274872da3d22348b552bbdba15fe5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &843498548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2554,11 +2563,6 @@ PrefabInstance:
 --- !u!4 &843498549 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4719895644497501860, guid: 9f6b7b6fa4e2df34ea5aeed75cd4ef64, type: 3}
-  m_PrefabInstance: {fileID: 843498548}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &843498550 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5698541942608270132, guid: 9f6b7b6fa4e2df34ea5aeed75cd4ef64, type: 3}
   m_PrefabInstance: {fileID: 843498548}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &853412888
@@ -3496,10 +3500,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwitchR4
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: objectToDisable
-      value: 
-      objectReference: {fileID: 686307077}
     - target: {fileID: 7311623346189068307, guid: 237211016406e4e4e9ffb602fa9a9970, type: 3}
       propertyPath: m_RootOrder
       value: 3
