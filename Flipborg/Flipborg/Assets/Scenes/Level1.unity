@@ -245,7 +245,7 @@ PrefabInstance:
     - target: {fileID: 8692805806392073801, guid: 5f83319bd69b43b46b708649acbdb09e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2726208939241869981, guid: 6709ce3cf0bf30246b6fd39d06c3f5d7, type: 3}
+      objectReference: {fileID: 3680262065953532933, guid: 6709ce3cf0bf30246b6fd39d06c3f5d7, type: 3}
     - target: {fileID: 8692805806392073802, guid: 5f83319bd69b43b46b708649acbdb09e, type: 3}
       propertyPath: m_Name
       value: Movable Crate (2)
@@ -2443,54 +2443,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5af5eac837b71741b67cbe176fb3db8, type: 3}
---- !u!1 &828302074 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2540419034449887257, guid: a5af5eac837b71741b67cbe176fb3db8, type: 3}
-  m_PrefabInstance: {fileID: 828302073}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &828302075
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828302074}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b9ccef0241ded3049a579f2ed5cfbb22, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &828302076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828302074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04274872da3d22348b552bbdba15fe5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 828302079}
---- !u!114 &828302079 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2540419034449887261, guid: a5af5eac837b71741b67cbe176fb3db8, type: 3}
-  m_PrefabInstance: {fileID: 828302073}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828302074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76401b792247f1240a229ed740aaa1bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &843498548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3433,7 +3385,7 @@ PrefabInstance:
     - target: {fileID: 8692805806392073801, guid: 5f83319bd69b43b46b708649acbdb09e, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2726208939241869981, guid: 6709ce3cf0bf30246b6fd39d06c3f5d7, type: 3}
+      objectReference: {fileID: 3680262065953532933, guid: 6709ce3cf0bf30246b6fd39d06c3f5d7, type: 3}
     - target: {fileID: 8692805806392073802, guid: 5f83319bd69b43b46b708649acbdb09e, type: 3}
       propertyPath: m_Name
       value: Movable Crate (1)

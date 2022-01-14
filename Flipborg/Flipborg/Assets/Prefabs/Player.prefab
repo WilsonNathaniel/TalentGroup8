@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 2540419034449887261}
   - component: {fileID: 2540419034449887232}
   - component: {fileID: 2540419034449887233}
+  - component: {fileID: 828302075}
+  - component: {fileID: 828302076}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -180,6 +182,7 @@ MonoBehaviour:
   controller: {fileID: 2540419034449887261}
   gravity: {fileID: 2540419034449887233}
   Movespeed: 80
+  jump: 0
 --- !u!114 &2540419034449887233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,6 +197,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 2540419034449887261}
   flipstate: 0
+--- !u!95 &828302075
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2540419034449887257}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b9ccef0241ded3049a579f2ed5cfbb22, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &828302076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2540419034449887257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04274872da3d22348b552bbdba15fe5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 2540419034449887261}
 --- !u!1 &2540419034684458156
 GameObject:
   m_ObjectHideFlags: 0
