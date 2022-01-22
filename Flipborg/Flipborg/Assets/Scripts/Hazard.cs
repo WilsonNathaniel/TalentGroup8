@@ -9,14 +9,17 @@ public class Hazard : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player")//pindah ke player
         {
-            
+            //play sound player mati
+            //play animation player mati
             RestartScene();
         }
 
-        if (collision.gameObject.tag == "crate")
+        if (collision.gameObject.tag == "crate")//pindah ke objek crate
         {
+            //play sound 
+            //play animation crate destroyed
             collision.gameObject.SetActive(false);
         }
     }

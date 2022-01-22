@@ -128,6 +128,9 @@ public class CharacterController2D : MonoBehaviour
 		if (m_Grounded && jump)
 		{
 			// Add a vertical force to the player.
+
+			//play sound jump
+			//play animation player jump
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 		}
