@@ -1971,6 +1971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwitchR3
       objectReference: {fileID: 0}
+    - target: {fileID: 3976486061962514346, guid: 185c8b0831d1da14dab2934313d7f4a1, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7311623346189068307, guid: 185c8b0831d1da14dab2934313d7f4a1, type: 3}
       propertyPath: m_RootOrder
       value: 2

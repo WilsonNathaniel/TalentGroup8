@@ -6,10 +6,15 @@ public class TriggerSwitch : MonoBehaviour
 {
     public bool isSwitched = false;
     private bool isPressed = false;
-  
 
-    
- 
+    private SpriteRenderer sr;
+    public Sprite newSprite;
+
+    private void Start()
+    {
+        sr = GetComponent<SpriteRenderer>();
+    }
+
     private void OnTriggerStay2D(Collider2D collision)
     {
      
@@ -22,8 +27,11 @@ public class TriggerSwitch : MonoBehaviour
         if (collision.gameObject.tag == "Player" && isPressed == true)
         {
             //play sound door switched off
-            //ganti sprite ke dari switch nyala ke mati
+
             isSwitched = true;
+
+            sr.sprite = newSprite;
+            
         }
     }
 }

@@ -2110,6 +2110,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwitchR3
       objectReference: {fileID: 0}
+    - target: {fileID: 3976486061962514345, guid: 237211016406e4e4e9ffb602fa9a9970, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976486061962514346, guid: 237211016406e4e4e9ffb602fa9a9970, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7311623346189068307, guid: 237211016406e4e4e9ffb602fa9a9970, type: 3}
       propertyPath: m_RootOrder
       value: 2

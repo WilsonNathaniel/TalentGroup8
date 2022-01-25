@@ -24,7 +24,6 @@ public class PlayerAnimation : MonoBehaviour
 
         bool isWalk;
         bool isJump;
-        bool actualJump;
 
         isWalk = (x < 0) || (x > 0);
 

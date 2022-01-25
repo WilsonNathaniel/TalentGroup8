@@ -123,3 +123,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSwitched: 0
+  newSprite: {fileID: -7640946292260344881, guid: d9dd92af4d1f6e4408193f415f169b7b, type: 3}
