@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8692805806392073806}
   - component: {fileID: 8692805806392073807}
   - component: {fileID: 8692805806392073805}
+  - component: {fileID: 410222745}
   m_Layer: 0
   m_Name: Movable Crate
   m_TagString: crate
@@ -147,6 +148,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flipstate: 0
+  anim: {fileID: 410222745}
+--- !u!95 &410222745
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8692805806392073802}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 10c9f1cd1c8f9c94a88bd3f8ccb2f64c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8692805807311251570
 GameObject:
   m_ObjectHideFlags: 0

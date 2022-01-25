@@ -50,12 +50,14 @@ public class PlayerAnimation : MonoBehaviour
             //play sound player mati
             //play animation player mati
 
+            GetComponent<playermovement>().enabled = false;
             StartCoroutine(RestartScene());
         }
     }
 
     IEnumerator RestartScene()
     {
+        anim.SetBool("IsDead", true);
         yield return new WaitForSeconds(0.2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

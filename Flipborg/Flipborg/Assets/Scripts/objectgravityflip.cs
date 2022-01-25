@@ -9,6 +9,7 @@ public class objectgravityflip : MonoBehaviour
     private CharacterController2D controller;
     private Rigidbody2D rb;
 
+    public Animator anim;
 
     void Start()
     {
@@ -39,7 +40,15 @@ public class objectgravityflip : MonoBehaviour
         {
             //play sound
             //play anim
-            Destroy(gameObject,0.1f);
+
+            if(flipstate == false)
+            {
+                anim.SetBool("IsDestroyed", true);
+            }else
+            {
+                anim.SetBool("IsDestroyFlip", true);
+            }
+            Destroy(gameObject,0.2f);
 
 
         }
