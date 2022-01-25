@@ -6,6 +6,7 @@ TagManager:
   tags:
   - movingplatform
   - crate
+  - Hazard
   layers:
   - Default
   - TransparentFX

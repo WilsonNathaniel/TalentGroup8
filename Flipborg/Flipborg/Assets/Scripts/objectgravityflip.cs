@@ -30,6 +30,19 @@ public class objectgravityflip : MonoBehaviour
                // rotation();
             }
         }
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Hazard")
+        {
+            //play sound
+            //play anim
+            Destroy(gameObject,0.1f);
+
+
+        }
     }
 
     void FixedUpdate()

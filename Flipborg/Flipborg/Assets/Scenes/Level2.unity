@@ -1878,10 +1878,9 @@ GameObject:
   - component: {fileID: 510693664}
   - component: {fileID: 510693663}
   - component: {fileID: 510693662}
-  - component: {fileID: 510693661}
   m_Layer: 0
   m_Name: Tilemap_Laser
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5342,18 +5341,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &510693661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 510693657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac6e02242a754a24ea6e7af08d13f60a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!66 &510693662
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -6606,7 +6593,7 @@ PrefabInstance:
     - target: {fileID: 1301229873, guid: 5f83319bd69b43b46b708649acbdb09e, type: 3}
       propertyPath: hazard
       value: 
-      objectReference: {fileID: 510693661}
+      objectReference: {fileID: 0}
     - target: {fileID: 1301229873, guid: 5f83319bd69b43b46b708649acbdb09e, type: 3}
       propertyPath: disableThis
       value: 
@@ -6614,7 +6601,7 @@ PrefabInstance:
     - target: {fileID: 4389472817099578094, guid: 5f83319bd69b43b46b708649acbdb09e, type: 3}
       propertyPath: hazard
       value: 
-      objectReference: {fileID: 510693661}
+      objectReference: {fileID: 0}
     - target: {fileID: 4389472817099578094, guid: 5f83319bd69b43b46b708649acbdb09e, type: 3}
       propertyPath: disableThis
       value: 
@@ -7936,7 +7923,7 @@ PrefabInstance:
     - target: {fileID: 1301229873, guid: 5f83319bd69b43b46b708649acbdb09e, type: 3}
       propertyPath: hazard
       value: 
-      objectReference: {fileID: 510693661}
+      objectReference: {fileID: 0}
     - target: {fileID: 1301229873, guid: 5f83319bd69b43b46b708649acbdb09e, type: 3}
       propertyPath: disableThis
       value: 
@@ -7944,7 +7931,7 @@ PrefabInstance:
     - target: {fileID: 4389472817099578094, guid: 5f83319bd69b43b46b708649acbdb09e, type: 3}
       propertyPath: hazard
       value: 
-      objectReference: {fileID: 510693661}
+      objectReference: {fileID: 0}
     - target: {fileID: 4389472817099578094, guid: 5f83319bd69b43b46b708649acbdb09e, type: 3}
       propertyPath: disableThis
       value: 
