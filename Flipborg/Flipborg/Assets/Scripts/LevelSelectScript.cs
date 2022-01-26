@@ -9,5 +9,14 @@ public class LevelSelectScript : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-    
+
+    public void SelectLevel2()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void SelectLevel3()
+    {
+        SceneManager.LoadScene(3);
+    }
+
 }
