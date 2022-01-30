@@ -8,6 +8,8 @@ public class gravityflip : MonoBehaviour
     public bool flipstate = false;
     private bool top = false;
     private Rigidbody2D rb;
+    public AudioSource audio;
+    public AudioClip gravClip;
 
     void Start()
     {
@@ -30,6 +32,11 @@ public class gravityflip : MonoBehaviour
                 controller.m_JumpForce = 700f;
                 rotation();
             }
+
+            //if(!audio.isPlaying)
+            //{
+                audio.Play();
+            //}
         }
 
     }

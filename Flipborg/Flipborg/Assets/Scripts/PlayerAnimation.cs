@@ -9,6 +9,9 @@ public class PlayerAnimation : MonoBehaviour
     //public playermovement variabl;
     public CharacterController2D controller;
 
+    public AudioSource audios;
+    public AudioClip walkClip;
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,10 +35,24 @@ public class PlayerAnimation : MonoBehaviour
         isJump = !controller.m_Grounded;
 
         anim.SetBool("RealJump", controller.jumpIsCallled);
+        
+
 
         anim.SetBool("IsWalking", isWalk);
+        if(isWalk && !isJump)
+        {
+            if(!audios.isPlaying)
+            {
+                audios.PlayOneShot(walkClip);
+            }
+        }else
+        {
+            audios.Stop();
+        }
+            
 
         anim.SetBool("IsJumping", isJump);
+
 
         bool isIdle;
         isIdle = x == 0;
@@ -57,6 +74,7 @@ public class PlayerAnimation : MonoBehaviour
     IEnumerator RestartScene()
     {
         anim.SetBool("IsDead", true);
+
         yield return new WaitForSeconds(0.2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

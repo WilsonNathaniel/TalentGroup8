@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    public TriggerSwitch trigger;
+    private AudioSource aus;
+
+    public AudioClip bgm2;
+
+    private bool done = false;
     void Start()
     {
-        
+        aus = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -17,5 +24,16 @@ public class PauseMenu : MonoBehaviour
         {
             SceneManager.LoadScene(0);
         }
+
+        if(trigger.isSwitched == true && done == false)
+        {
+            done = true;
+            aus.clip = bgm2;
+            aus.Play();
+        }
     }
+
+
+
+
 }
