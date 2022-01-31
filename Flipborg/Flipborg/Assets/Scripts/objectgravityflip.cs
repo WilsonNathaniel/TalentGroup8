@@ -8,6 +8,7 @@ public class objectgravityflip : MonoBehaviour
     private bool top;
     private CharacterController2D controller;
     private Rigidbody2D rb;
+    public AudioSource Audio;
 
     public Animator anim;
 
@@ -39,6 +40,8 @@ public class objectgravityflip : MonoBehaviour
         if(collision.gameObject.tag == "Hazard")
         {
             //play sound
+            Audio.Play();
+
             //play anim
 
             if(flipstate == false)

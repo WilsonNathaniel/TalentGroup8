@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8692805806392073806}
   - component: {fileID: 8692805806392073807}
   - component: {fileID: 8692805806392073805}
-  - component: {fileID: 410222745}
+  - component: {fileID: 848285911}
   m_Layer: 0
   m_Name: Movable Crate
   m_TagString: crate
@@ -148,8 +148,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flipstate: 0
-  anim: {fileID: 410222745}
---- !u!95 &410222745
+  Audio: {fileID: 0}
+  anim: {fileID: 848285911}
+--- !u!95 &848285911
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0

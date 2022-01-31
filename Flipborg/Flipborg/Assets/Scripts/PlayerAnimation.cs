@@ -10,6 +10,7 @@ public class PlayerAnimation : MonoBehaviour
     public CharacterController2D controller;
 
     public AudioSource audios;
+    public AudioSource deathAudio;
     public AudioClip walkClip;
 
 
@@ -49,7 +50,6 @@ public class PlayerAnimation : MonoBehaviour
         {
             audios.Stop();
         }
-            
 
         anim.SetBool("IsJumping", isJump);
 
@@ -74,7 +74,7 @@ public class PlayerAnimation : MonoBehaviour
     IEnumerator RestartScene()
     {
         anim.SetBool("IsDead", true);
-
+        deathAudio.Play();
         yield return new WaitForSeconds(0.2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

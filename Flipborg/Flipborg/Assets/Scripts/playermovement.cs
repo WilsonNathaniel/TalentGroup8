@@ -10,6 +10,7 @@ public class playermovement : MonoBehaviour
     float MoveHorizontal = 0f;
     public float Movespeed = 30f;
     public bool jump = false;
+    public AudioSource Audio;
     // Update is called once per frame
     void Update()
     {
@@ -18,6 +19,11 @@ public class playermovement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+        }
+
+        if (jump == true)
+        {
+            Audio.Play();
         }
     }
 
