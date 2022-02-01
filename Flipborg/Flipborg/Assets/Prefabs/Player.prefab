@@ -237,8 +237,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 2540419034449887261}
   audios: {fileID: 1000241936}
-  deathAudio: {fileID: 0}
   walkClip: {fileID: 8300000, guid: ef94b20b94867e948a92090262f09584, type: 3}
+  deathPrefab: {fileID: 7424946154436036960, guid: 40a90e717a0bcf049a80c9f6718d7501, type: 3}
 --- !u!82 &1000241936
 AudioSource:
   m_ObjectHideFlags: 0
