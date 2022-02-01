@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: d3b91f3977c988344b5e440ca3edf68d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7977316714264694821
+    second: charSpriteSheet_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -236,6 +239,27 @@ TextureImporter:
       bones: []
       spriteID: 948acbdc75f576e20800000000000000
       internalID: 3343746079064369225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 26
+        width: 2
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf6779c6b0ea4190800000000000000
+      internalID: -7977316714264694821
       vertices: []
       indices: 
       edges: []

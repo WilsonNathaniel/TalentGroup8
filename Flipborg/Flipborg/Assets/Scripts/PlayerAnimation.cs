@@ -10,9 +10,9 @@ public class PlayerAnimation : MonoBehaviour
     public CharacterController2D controller;
 
     public AudioSource audios;
-    public AudioSource deathAudio;
     public AudioClip walkClip;
 
+    public GameObject deathPrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -67,16 +67,19 @@ public class PlayerAnimation : MonoBehaviour
             //play animation player mati
 
             GetComponent<playermovement>().enabled = false;
-            StartCoroutine(RestartScene());
+            RestartScene();
         }
     }
 
-    IEnumerator RestartScene()
+    private void RestartScene()
     {
         anim.SetBool("IsDead", true);
-        deathAudio.Play();
-        yield return new WaitForSeconds(0.2f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Instantiate(deathPrefab, transform.position, transform.rotation);
+        
+        //yield return new WaitForSeconds(0.5f);
+        Destroy(gameObject);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        
     }
     
 }
