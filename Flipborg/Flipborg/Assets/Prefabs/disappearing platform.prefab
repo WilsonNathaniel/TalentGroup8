@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 7261329529805422671}
   - component: {fileID: 315769809793174134}
   - component: {fileID: 315769809793174135}
+  - component: {fileID: 5747357151405448298}
   m_Layer: 0
   m_Name: disappearing platform
   m_TagString: Untagged
@@ -155,3 +156,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   appeardelay: 2
   disappeardelay: 0.5
+--- !u!95 &5747357151405448298
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034789034567291260}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9e013b4a778f6c4468bae5cd352c61a3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
