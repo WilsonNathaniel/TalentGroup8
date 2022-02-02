@@ -5,7 +5,7 @@ using UnityEngine;
 public class cameramove : MonoBehaviour
 {
     private GameObject camera;
-    private bool activated = false;
+    public bool activated = false;
     [SerializeField] private float moveby = 25;
     private void OnTriggerEnter2D(Collider2D collision)
     {
