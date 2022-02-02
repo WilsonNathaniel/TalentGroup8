@@ -21,7 +21,7 @@ public class playermovement : MonoBehaviour
             jump = true;
         }
 
-        if (jump == true)
+        if (jump == true && controller.m_Grounded)
         {
             Audio.Play();
         }

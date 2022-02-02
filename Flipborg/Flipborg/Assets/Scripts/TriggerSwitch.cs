@@ -24,7 +24,7 @@ public class TriggerSwitch : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
      
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.E))
         {
             isPressed = true;
      //       Debug.Log("q pressed");
