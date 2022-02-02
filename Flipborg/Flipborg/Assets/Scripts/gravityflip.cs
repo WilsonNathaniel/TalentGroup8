@@ -9,6 +9,7 @@ public class gravityflip : MonoBehaviour
     private bool top = false;
     private Rigidbody2D rb;
     public AudioSource audio;
+    public ActualPauseMenu Paused;
     public AudioClip gravClip;
 
     void Start()
@@ -18,7 +19,7 @@ public class gravityflip : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && controller.m_Grounded)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && controller.m_Grounded && !Paused.isPaused)
         {
             if(flipstate == false)
             {

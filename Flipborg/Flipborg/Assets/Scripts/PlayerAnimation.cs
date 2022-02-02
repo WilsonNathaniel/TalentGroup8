@@ -6,21 +6,16 @@ using UnityEngine.SceneManagement;
 public class PlayerAnimation : MonoBehaviour
 {
     private Animator anim;
-    //public playermovement variabl;
     public CharacterController2D controller;
-
+    public ActualPauseMenu isPause;
     public AudioSource audios;
     public AudioClip walkClip;
-
     public GameObject deathPrefab;
 
-    // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         float x;
@@ -29,9 +24,7 @@ public class PlayerAnimation : MonoBehaviour
         bool isWalk;
         bool isJump;
 
-        isWalk = (x < 0) || (x > 0);
-
-        //Debug.Log(x);
+        isWalk = (x < 0 || x > 0) && !isPause.isPaused;
 
         isJump = !controller.m_Grounded;
 
