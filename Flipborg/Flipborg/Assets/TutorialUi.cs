@@ -6,18 +6,22 @@ public class TutorialUi : MonoBehaviour
 {
 
     public cameramove cm;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public cameramove cm2;
+    public GameObject FlipTutor;
+    public GameObject MoveTutor;
+    public GameObject InteractTutor;
     void Update()
     {
         if(cm.activated == true)
         {
-            gameObject.SetActive(false);
+            MoveTutor.SetActive(false);
+            InteractTutor.SetActive(false);
+            FlipTutor.SetActive(true);
+        }
+
+        if (cm2.activated == true)
+        {
+            FlipTutor.SetActive(false);
         }
     }
 }
