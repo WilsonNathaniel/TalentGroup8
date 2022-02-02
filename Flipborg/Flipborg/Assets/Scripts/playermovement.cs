@@ -6,7 +6,7 @@ public class playermovement : MonoBehaviour
 {
     public CharacterController2D controller;
     public gravityflip gravity;
-
+    public ActualPauseMenu paused;
     float MoveHorizontal = 0f;
     public float Movespeed = 30f;
     public bool jump = false;
@@ -16,7 +16,7 @@ public class playermovement : MonoBehaviour
     {
         MoveHorizontal = Input.GetAxisRaw("Horizontal") * Movespeed;
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && !paused.isPaused)
         {
             jump = true;
         }

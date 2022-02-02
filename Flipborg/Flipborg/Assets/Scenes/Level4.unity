@@ -7454,6 +7454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d696e436b780c6a4a853e1c4b9529d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPaused: 0
   PauseMenu: {fileID: 106745471}
   BGM: {fileID: 1950066166}
 --- !u!114 &1014344278
@@ -7544,6 +7545,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 828302076, guid: afc15b020d27a504cbb4cd04742a6618, type: 3}
+      propertyPath: isPause
+      value: 
+      objectReference: {fileID: 1014344277}
+    - target: {fileID: 2540419034449887232, guid: afc15b020d27a504cbb4cd04742a6618, type: 3}
+      propertyPath: paused
+      value: 
+      objectReference: {fileID: 1014344277}
+    - target: {fileID: 2540419034449887233, guid: afc15b020d27a504cbb4cd04742a6618, type: 3}
+      propertyPath: Paused
+      value: 
+      objectReference: {fileID: 1014344277}
     - target: {fileID: 2540419034449887257, guid: afc15b020d27a504cbb4cd04742a6618, type: 3}
       propertyPath: m_Name
       value: Player

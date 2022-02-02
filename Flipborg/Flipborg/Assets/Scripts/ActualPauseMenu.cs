@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ActualPauseMenu : MonoBehaviour
 {
-    public static bool isPaused = false;
+    public bool isPaused = false;
     public GameObject PauseMenu;
     public AudioSource BGM;
     void Update()
