@@ -5,13 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-
+    public GameObject NextLevelMenu;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        GoNextLevel();
-        
-        
-        
+        NextLevelMenu.SetActive(true);
     }
     public void GoNextLevel()
     {
