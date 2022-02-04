@@ -10,15 +10,18 @@ public class cameramove : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         camera = GameObject.Find("Main Camera");
-        if (activated == false)
+        if(collision.gameObject.tag == "Player")
         {
-            camera.transform.Translate(moveby, 0, 0);
-            activated = true;
-        }
-        else
-        {
-            camera.transform.Translate(-moveby, 0, 0);
-            activated = false;
+            if (activated == false)
+            {
+                camera.transform.Translate(moveby, 0, 0);
+                activated = true;
+            }
+            else
+            {
+                camera.transform.Translate(-moveby, 0, 0);
+                activated = false;
+            }
         }
     }
 }

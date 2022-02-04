@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 315769809793174134}
   - component: {fileID: 315769809793174135}
   - component: {fileID: 5747357151405448298}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: disappearing platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}

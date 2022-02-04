@@ -7,11 +7,12 @@ TagManager:
   - movingplatform
   - crate
   - Hazard
+  - PlayerFeet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
