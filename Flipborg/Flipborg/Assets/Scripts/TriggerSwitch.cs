@@ -15,10 +15,14 @@ public class TriggerSwitch : MonoBehaviour
     private AudioSource audioSource;
     public AudioClip clip;
 
+
+    private Animator anim;
+
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();
+        anim = GetComponent<Animator>();
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -37,6 +41,10 @@ public class TriggerSwitch : MonoBehaviour
             isSwitched = true;
 
             sr.sprite = newSprite;
+            if(anim != null)
+            {
+                anim.SetBool("IsTaken", true);
+            }
             if(!audioSource.isPlaying && isOpened == false)
             {
                 audioSource.PlayOneShot(clip);
