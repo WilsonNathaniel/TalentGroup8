@@ -9,6 +9,7 @@ public class NextLevel : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         NextLevelMenu.SetActive(true);
+        PlayerPrefs.SetInt("FirstPlay", 1);
     }
     public void GoNextLevel()
     {
