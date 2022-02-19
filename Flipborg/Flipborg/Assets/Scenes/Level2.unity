@@ -6789,8 +6789,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - 'Wilson: Lorem ipsum'
-    - 'Wilson: Dolor sit amet'
+    - 'Agent 0.7: Never been that easy.'
+    - 'Edward: Then, the neverending challenge always blessed you.'
+    - 'Agent 0.7: Sounds entertaining'
+    - 'Edward: We already know the inside of Reese building and created the main
+      strategy to save our planet. Now, please help us in the next Mission on preparing
+      the equipment.'
+    - 'Agent 0.7: Good to go.'
 --- !u!4 &608081845
 Transform:
   m_ObjectHideFlags: 0

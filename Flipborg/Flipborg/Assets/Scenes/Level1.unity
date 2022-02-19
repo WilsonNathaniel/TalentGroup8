@@ -4413,8 +4413,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - 'Wilson: Lorem ipsum'
-    - 'Wilson: Dolor sit amet'
+    - 'Edward: Join hands with me and play the game'
+    - 'Agent 0.7: Truly a good mind-reader.'
+    - 'Edward: On behalf of the agency, I want you to come and join us.'
+    - 'Agent 0.7: Of course, sounds challenging'
+    - 'Edward: I believe you are a diligent judge of your word, here is your first
+      mission.'
 --- !u!4 &1249932783
 Transform:
   m_ObjectHideFlags: 0
@@ -5257,7 +5261,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 6}
+  m_AnchoredPosition: {x: 0, y: 190}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1463457927
@@ -5451,7 +5455,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueText: {fileID: 1741512216}
-  Pause: {fileID: 0}
   animator: {fileID: 1463457927}
   typespeed: 0.03
 --- !u!4 &1546003847

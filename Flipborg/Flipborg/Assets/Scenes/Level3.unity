@@ -591,11 +591,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194645370}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -400.00003, y: -224.96101, z: 0}
-  m_LocalScale: {x: 0.624025, y: 0.624025, z: 0.624025}
+  m_LocalPosition: {x: -0.000061035156, y: -0.000030517578, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 231923242}
-  m_RootOrder: 4
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &194645372
 MonoBehaviour:
@@ -611,8 +611,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - 'Wilson: Lorem ipsum'
-    - 'Wilson: Dolor sit amet'
+    - 'Agent 0.7: Report, I have our respected key.'
+    - "Edward: Good job 0.7, we don\u2019t have much time. Let\u2019s move!"
+    - 'Agent 0.7: As it should.'
+    - 'Edward: I wish you luck. This is the hardest challenge yet but it determines
+      our future
+
+'
+    - 'Agent 0.7: Never gonna leave you any worries!'
 --- !u!1 &231923237
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,8 +729,6 @@ RectTransform:
   - {fileID: 1109591344}
   - {fileID: 190313849}
   - {fileID: 469069502}
-  - {fileID: 1250794964}
-  - {fileID: 194645371}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4626,11 +4630,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250794963}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -400.00003, y: -224.96101, z: 0}
-  m_LocalScale: {x: 0.624025, y: 0.624025, z: 0.624025}
+  m_LocalPosition: {x: -0.000061035156, y: -0.000030517578, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 231923242}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1250794965
 MonoBehaviour:
