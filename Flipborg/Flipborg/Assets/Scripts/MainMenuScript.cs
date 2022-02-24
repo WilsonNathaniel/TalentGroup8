@@ -5,7 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuScript : MonoBehaviour
 {
-    
+
+    private void Start()
+    {
+        Screen.SetResolution(Screen.height * 4 / 3, Screen.height, true);
+        
+    }
 
     public void QuitGame()
     {

@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: 4708a0e4ee1bab54bb6f7c93d38a1ec8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2019201741618901832
+    second: flipborg_menu (1)_0
+  - first:
+      213: 3059557569659491201
+    second: flipborg_menu (1)_1
+  - first:
+      213: 7907314912475313828
+    second: flipborg_menu (1)_2
+  - first:
+      213: -7826344209690125214
+    second: flipborg_menu (1)_3
+  - first:
+      213: -149343375928913173
+    second: flipborg_menu (1)_4
+  - first:
+      213: -8142311194604648526
+    second: flipborg_menu (1)_5
+  - first:
+      213: 1535014820479879019
+    second: flipborg_menu (1)_6
+  - first:
+      213: 2389803905608227441
+    second: flipborg_menu (1)_7
+  - first:
+      213: -574600273487347413
+    second: flipborg_menu (1)_8
+  - first:
+      213: 3265307654073360190
+    second: flipborg_menu (1)_9
+  - first:
+      213: 4311801027751538406
+    second: flipborg_menu (1)_10
+  - first:
+      213: -6433405396284897587
+    second: flipborg_menu (1)_11
+  - first:
+      213: -8630255097579032738
+    second: flipborg_menu (1)_12
+  - first:
+      213: -5671963765243771206
+    second: flipborg_menu (1)_13
+  - first:
+      213: 3045901937101510623
+    second: flipborg_menu (1)_14
+  - first:
+      213: 1704881732192157332
+    second: flipborg_menu (1)_15
+  - first:
+      213: 6120650389941325708
+    second: flipborg_menu (1)_16
+  - first:
+      213: -4115142053013879793
+    second: flipborg_menu (1)_17
+  - first:
+      213: 6446733683138748312
+    second: flipborg_menu (1)_18
+  - first:
+      213: 2193548324836436055
+    second: flipborg_menu (1)_19
+  - first:
+      213: -5024187717070561585
+    second: flipborg_menu (1)_20
+  - first:
+      213: -5878363050129408077
+    second: flipborg_menu (1)_21
+  - first:
+      213: -6270959564913005266
+    second: flipborg_menu (1)_22
+  - first:
+      213: -5796432805767999839
+    second: flipborg_menu (1)_23
+  - first:
+      213: 1268501732641707616
+    second: flipborg_menu (1)_24
+  - first:
+      213: -2233660502492339957
+    second: flipborg_menu (1)_25
+  - first:
+      213: 5680091326109406929
+    second: flipborg_menu (1)_26
+  - first:
+      213: 1105707016967816067
+    second: flipborg_menu (1)_27
+  - first:
+      213: -2358459472037812453
+    second: flipborg_menu (1)_28
+  - first:
+      213: -1594753701048501003
+    second: flipborg_menu (1)_29
+  - first:
+      213: -2746350294364970612
+    second: flipborg_menu (1)_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flipborg_menu (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc84f4d6ba5af3e0800000000000000
+      internalID: -2019201741618901832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 543
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183596d366bb57a20800000000000000
+      internalID: 3059557569659491201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_2
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 543
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a67d35a40d6cbd60800000000000000
+      internalID: 7907314912475313828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 543
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c1c73386d336390800000000000000
+      internalID: -7826344209690125214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be21338adfc6dedf0800000000000000
+      internalID: -149343375928913173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 362
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b747eabb13b00f80800000000000000
+      internalID: -8142311194604648526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_6
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 362
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67c9aba8d77d4510800000000000000
+      internalID: 1535014820479879019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_7
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 362
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a9e9c8df94a2120800000000000000
+      internalID: 2389803905608227441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 181
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21c1fa781c9608f0800000000000000
+      internalID: -574600273487347413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_9
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 181
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f1863d204b05d20800000000000000
+      internalID: 3265307654073360190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_10
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 181
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee6b49903896db30800000000000000
+      internalID: 4311801027751538406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_11
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 181
+        width: 320
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc68b52b0e3f7b6a0800000000000000
+      internalID: -6433405396284897587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_12
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 129
+        width: 59
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f2ccbb6bc2b3880800000000000000
+      internalID: -8630255097579032738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_13
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 129
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab602c1c1032941b0800000000000000
+      internalID: -5671963765243771206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_14
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 129
+        width: 59
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd71c958ca7354a20800000000000000
+      internalID: 3045901937101510623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_15
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 100
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ebd5f07e4f8a710800000000000000
+      internalID: 1704881732192157332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_16
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 100
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f0fced91be0f450800000000000000
+      internalID: 6120650389941325708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 100
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0406d11b1414e6c0800000000000000
+      internalID: -4115142053013879793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_18
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 100
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fd709e026677950800000000000000
+      internalID: 6446733683138748312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 100
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758678b549c017e10800000000000000
+      internalID: 2193548324836436055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_20
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 100
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fced02ff3ef764ab0800000000000000
+      internalID: -5024187717070561585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_21
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 100
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf314863fbdb6ea0800000000000000
+      internalID: -5878363050129408077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_22
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 100
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2da58c208319f8a0800000000000000
+      internalID: -6270959564913005266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_23
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 70
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae07cfe21fee8fa0800000000000000
+      internalID: -5796432805767999839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_24
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 70
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0669313ea9f9a9110800000000000000
+      internalID: 1268501732641707616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_25
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 70
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01af108b917001e0800000000000000
+      internalID: -2233660502492339957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_26
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 70
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6578877fcb3de40800000000000000
+      internalID: 5680091326109406929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_27
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 70
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38306047ca2485f00800000000000000
+      internalID: 1105707016967816067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_28
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 70
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17e7081b91154fd0800000000000000
+      internalID: -2358459472037812453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_29
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 70
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcb3c055fb4ed9e0800000000000000
+      internalID: -1594753701048501003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flipborg_menu (1)_30
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 70
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81269345f003e9d0800000000000000
+      internalID: -2746350294364970612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
